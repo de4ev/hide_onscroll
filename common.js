@@ -10,7 +10,6 @@ window.onscroll = function() {
     } else if ((prevScrollPosition < currentScrollPosition) && (prevScrollPosition !== 0)) {
         navbar.style.top = '-80px'
     }
-    prevScrollPosition = currentScrollPosition
-    console.log(currentScrollPosition, prevScrollPosition, this.document.body.scrollHeight - window.innerHeight);
+    prevScrollPosition = currentScrollPosition;
 }
 
